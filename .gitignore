@@ -1,0 +1,10 @@
+.venv/
+site/
+logs/
+.env
+data/seen.json
+data/feed_cache.json
+data/state.json
+data/generate.lock
+__pycache__/
+*.pyc

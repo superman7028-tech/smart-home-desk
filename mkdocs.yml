@@ -1,0 +1,35 @@
+site_name: Smart Home Desk
+site_description: Practical smart-home buying and setup notes based on what people are asking about right now.
+site_url: https://superman7028-tech.github.io/smart-home-desk/
+docs_dir: docs
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tracking
+    - toc.follow
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+plugins:
+  - search
+nav:
+  - Home: index.md
+  - Gear: gear.md
+  - Disclosure: disclosure.md
+  - Posts:
+      - "My smart lights kept going offline, until this router setting fixed the whole room": posts/2026-09-22-my-smart-lights-kept-going-offline-until-this-router-setting.md
